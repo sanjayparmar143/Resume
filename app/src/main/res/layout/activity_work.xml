@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2"
+    android:orientation="vertical"
+    tools:context=".Work">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORK PROFILE"
+        android:layout_margin="15dp"
+        android:letterSpacing="0.2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="17dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/github"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/sp"
+            android:hint="Github Link"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#99000000"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/sp"
+            android:hint="Linkedin Link"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#99000000"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/sp"
+            android:text="Reset"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/sp"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

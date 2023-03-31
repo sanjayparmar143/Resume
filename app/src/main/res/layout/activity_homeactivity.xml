@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2"
+    tools:context=".homeactivity">
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        android:text="create"/>
+
+    <TextView
+        android:id="@+id/txtmarquee"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=" Make Your Resume "
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/sp"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="100dp"
+        android:backgroundTint="#9C724B"
+        android:text="exit"/>
+
+
+</LinearLayout>
